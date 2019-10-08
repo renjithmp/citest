@@ -8,9 +8,49 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{459FA928-E584-4661-8C58-F9ED32092B22}"
 	ProjectSection(SolutionItems) = preProject
 		appveyor.yml = appveyor.yml
+		nuget.config = nuget.config
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication3", "WebApplication3.csproj", "{05D88C5D-C6CA-4251-BA68-45902590A0BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "opencover", "opencover", "{EF956469-C3DA-4029-B8B2-6EBDC4FA4873}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.7.922", "4.7.922", "{80D7F223-6AC1-4A34-8362-84050C1BAB37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{9AB0961C-0D40-4BFA-B90B-02BB9AAB0C9B}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\Autofac.Configuration.dll = ..\..\..\.nuget\packages\opencover\4.7.922\tools\Autofac.Configuration.dll
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\Autofac.dll = ..\..\..\.nuget\packages\opencover\4.7.922\tools\Autofac.dll
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\autofac.json = ..\..\..\.nuget\packages\opencover\4.7.922\tools\autofac.json
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\Gendarme.Framework.dll = ..\..\..\.nuget\packages\opencover\4.7.922\tools\Gendarme.Framework.dll
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\Gendarme.Rules.Maintainability.dll = ..\..\..\.nuget\packages\opencover\4.7.922\tools\Gendarme.Rules.Maintainability.dll
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\log4net.config = ..\..\..\.nuget\packages\opencover\4.7.922\tools\log4net.config
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\log4net.dll = ..\..\..\.nuget\packages\opencover\4.7.922\tools\log4net.dll
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\Microsoft.Extensions.Configuration.Abstractions.dll = ..\..\..\.nuget\packages\opencover\4.7.922\tools\Microsoft.Extensions.Configuration.Abstractions.dll
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\Microsoft.Extensions.Configuration.dll = ..\..\..\.nuget\packages\opencover\4.7.922\tools\Microsoft.Extensions.Configuration.dll
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\Microsoft.Extensions.Configuration.FileExtensions.dll = ..\..\..\.nuget\packages\opencover\4.7.922\tools\Microsoft.Extensions.Configuration.FileExtensions.dll
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\Microsoft.Extensions.Configuration.Json.dll = ..\..\..\.nuget\packages\opencover\4.7.922\tools\Microsoft.Extensions.Configuration.Json.dll
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\Microsoft.Extensions.FileProviders.Abstractions.dll = ..\..\..\.nuget\packages\opencover\4.7.922\tools\Microsoft.Extensions.FileProviders.Abstractions.dll
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\Microsoft.Extensions.FileProviders.Physical.dll = ..\..\..\.nuget\packages\opencover\4.7.922\tools\Microsoft.Extensions.FileProviders.Physical.dll
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\Microsoft.Extensions.FileSystemGlobbing.dll = ..\..\..\.nuget\packages\opencover\4.7.922\tools\Microsoft.Extensions.FileSystemGlobbing.dll
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\Microsoft.Extensions.Primitives.dll = ..\..\..\.nuget\packages\opencover\4.7.922\tools\Microsoft.Extensions.Primitives.dll
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\Mono.Cecil.dll = ..\..\..\.nuget\packages\opencover\4.7.922\tools\Mono.Cecil.dll
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\Mono.Cecil.Mdb.dll = ..\..\..\.nuget\packages\opencover\4.7.922\tools\Mono.Cecil.Mdb.dll
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\Mono.Cecil.Pdb.dll = ..\..\..\.nuget\packages\opencover\4.7.922\tools\Mono.Cecil.Pdb.dll
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\Mono.Cecil.Rocks.dll = ..\..\..\.nuget\packages\opencover\4.7.922\tools\Mono.Cecil.Rocks.dll
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\Newtonsoft.Json.dll = ..\..\..\.nuget\packages\opencover\4.7.922\tools\Newtonsoft.Json.dll
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\OpenCover.Console.exe = ..\..\..\.nuget\packages\opencover\4.7.922\tools\OpenCover.Console.exe
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\OpenCover.Console.exe.config = ..\..\..\.nuget\packages\opencover\4.7.922\tools\OpenCover.Console.exe.config
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\OpenCover.Console.pdb = ..\..\..\.nuget\packages\opencover\4.7.922\tools\OpenCover.Console.pdb
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\OpenCover.Extensions.dll = ..\..\..\.nuget\packages\opencover\4.7.922\tools\OpenCover.Extensions.dll
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\OpenCover.Extensions.pdb = ..\..\..\.nuget\packages\opencover\4.7.922\tools\OpenCover.Extensions.pdb
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\OpenCover.Framework.dll = ..\..\..\.nuget\packages\opencover\4.7.922\tools\OpenCover.Framework.dll
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\OpenCover.Framework.pdb = ..\..\..\.nuget\packages\opencover\4.7.922\tools\OpenCover.Framework.pdb
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\Sentry.dll = ..\..\..\.nuget\packages\opencover\4.7.922\tools\Sentry.dll
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\Sentry.PlatformAbstractions.dll = ..\..\..\.nuget\packages\opencover\4.7.922\tools\Sentry.PlatformAbstractions.dll
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\Sentry.Protocol.dll = ..\..\..\.nuget\packages\opencover\4.7.922\tools\Sentry.Protocol.dll
+		..\..\..\.nuget\packages\opencover\4.7.922\tools\System.Collections.Immutable.dll = ..\..\..\.nuget\packages\opencover\4.7.922\tools\System.Collections.Immutable.dll
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +79,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80D7F223-6AC1-4A34-8362-84050C1BAB37} = {EF956469-C3DA-4029-B8B2-6EBDC4FA4873}
+		{9AB0961C-0D40-4BFA-B90B-02BB9AAB0C9B} = {80D7F223-6AC1-4A34-8362-84050C1BAB37}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB9EBBE2-BE6A-4493-A873-8E63A0EFE6CA}
