@@ -25,6 +25,8 @@ namespace WebApplication3
             {
                 configuration.RootPath = "ClientApp/dist";
             });
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
