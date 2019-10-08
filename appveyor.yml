@@ -22,7 +22,7 @@ artifacts:
  - path: '\bin\Debug\netcoreapp3.0\publish'
    name: WebApplication3
    type: WebDeployPackage
-   clone_depth: 1
+clone_depth: 1
 test_script:
   # restore packages for our unit tests
   - cmd: dotnet restore ./NUnitTestProject2/NUnitTestProject2.csproj --verbosity m
