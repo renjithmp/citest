@@ -5,7 +5,6 @@ environment:
   nodejs_version: 10.9
   COVERALLS_REPO_TOKEN:
   secure: yFVffx+aDg1QMtDKWWFtNyKPVHFKEQ1c81VTMU08CUed4m1FaI2oryr86oAZQs4Y
-nuget config -set repositoryPath=c:\packages
 branches:
   only:
   - master
