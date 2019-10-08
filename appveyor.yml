@@ -39,7 +39,7 @@ test_script:
   - cmd: dotnet test
 after_test: 
 # generate report for NUnit testing framework:
-    - cmd:packages\OpenCover.4.6.519\tools\OpenCover.Console.exe -register:user -filter:"+[*]*" -target:"packages\NUnit.ConsoleRunner.3.2.1\tools\nunit3-console.exe" -targetargs:"/domain:single NUnitTestProject2/bin/debug/netcoreapp3.0/NUnitTestProject2.dll" -output:coverage.xml
+    - cmd: packages\opencover\4.7.922\tools\OpenCover.Console.exe -target:"c:\Program Files\dotnet\dotnet.exe" -targetargs:"test" -output:coverage.xml -oldStyle -register:user -filter:"+[NUnitTestProject2*]*"  -output:coverage.xml
 
 # generate report for MSTest testing framework:
 #    -cmd: packages\OpenCover.4.6.166\tools\OpenCover.Console.exe -register:user -filter:"+[*]*" -target:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\MSTest.exe" -targetargs:"/testcontainer:YOURPROJECT.Tests/bin/debug/YOURPROJECT.Tests.dll" -output:coverage.xml
