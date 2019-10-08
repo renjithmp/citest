@@ -1,0 +1,1 @@
+C:\Users\Renjith\.nuget\packages\reportgenerator\4.3.0\tools\netcoreapp3.0\ReportGenerator.exe -reports:coverage.xml -targetdir:coverage  

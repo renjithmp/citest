@@ -37,6 +37,20 @@ namespace WebApplication3.Controllers
             })
             .ToArray();
         }
+        public void TestTestCover()
+        {
+
+            try
+            {
+
+                _logger.LogInformation("this is covered");
+            }
+            catch(Exception e)
+            {
+                _logger.LogInformation("this is covered"+e.ToString());
+            }
+
+        }
         public void DBTest()
         {
             using (var db = new LiteDatabase(@"MyData.db"))

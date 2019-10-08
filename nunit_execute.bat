@@ -1,0 +1,1 @@
+C:\Users\Renjith\.nuget\packages\nunit.consolerunner\3.10.0\tools\nunit3-console.exe NUnitTestProject2 /noshadow

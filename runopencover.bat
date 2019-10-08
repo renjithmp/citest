@@ -1,0 +1,1 @@
+C:\Users\Renjith\.nuget\packages\opencover\4.7.922\tools\OpenCover.Console.exe -target:"c:\Program Files\dotnet\dotnet.exe" -targetargs:"test" -output:coverage.xml -oldStyle -register:user -filter:"+[NUnitTestProject2*]*" 
